@@ -1,0 +1,62 @@
+
+/*==== PAGINA DE LOGIN ====*/
+@media screen and (max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .body-login{
+        background-color: #fff;
+    }
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .instagram-phone{
+        display: none;
+    }
+    .instagram-continue{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
+}
+
+/*==== PAGINA HOME ====*/
+@media screen and (max-width:1200px){
+    aside{
+        display: none;
+    }
+    .container-flex{
+        justify-content: center;
+     }
+}
+
+@media screen and (max-width:600px){
+    .form-search{
+        display: none;
+    }
+    .group-menu{
+        display: none;
+    }
+    .icon-mobile{
+        display: block;
+        width: 25px;
+    }
+    .icons-mobile-menu{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        background-color: #fff;
+        padding: 10px 0;
+        border-top: 1px solid lightgray;
+    }
+    .container-flex{
+        width: 100%;
+     }
+
+}
